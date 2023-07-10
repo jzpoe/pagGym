@@ -20,10 +20,11 @@ body {
 
 .container > div {
   flex: 1; /* Distribuye el espacio verticalmente entre las imágenes */
+  margin-top: -90px;
 }
 
 .container > div img {
-  margin-top: 10px;
+  
   width: 100%; /* Establece el ancho de las imágenes al 100% */
   height: 100%; /* Establece la altura de las imágenes al 100% */
   object-fit: cover; /* Ajusta las imágenes dentro de su contenedor manteniendo su proporción de aspecto */
@@ -81,4 +82,19 @@ body {
 
 .about{
   color: white;
+}
+
+.foter{
+  color: #f2f2f2;
+  text-align: center;
+  margin-top: -100px;
+}
+
+.icon-redes{
+  color: #f2f2f2;
+  display: grid; 
+  place-items: center; 
+  height: 50px;
+  font-size: x-large;
+
 }
